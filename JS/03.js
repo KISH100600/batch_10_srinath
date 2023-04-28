@@ -6,9 +6,10 @@ function add(first = 0, second = 0) {
 }
 
 const getAddition = () => {
-  document.getElementById("out").innerText =
-    JSON.parse(document.getElementById("first").value) +
-    JSON.parse(document.getElementById("second").value);
+  document.getElementById("out").innerText = add(
+    JSON.parse(document.getElementById("first").value),
+    JSON.parse(document.getElementById("second").value)
+  );
 };
 
 getName();
