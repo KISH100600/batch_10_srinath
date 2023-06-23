@@ -52,3 +52,14 @@ function onMouseOut() {
   document.getElementById("button").style.background = "";
 }
 // getName("j");
+
+var names = [1, 2, 3, 5, 6, 6, 7];
+var names = 10;
+names[6] = 10;
+names = 10;
+
+bike.name = "kish";
+bike = 19;
+
+// let data;
+const data = "";
